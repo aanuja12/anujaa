@@ -1,0 +1,277 @@
+.employee-list {
+  background-color: lightgray;
+}
+.employee-list > .title {
+  text-align: center;
+}
+.employee-list .employee-box {
+  display: flex;
+}
+.employee-list .employee-box .box {
+  max-width: 25%;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 3px 1px 6px 0px #000000;
+}
+.employee-list .employee-box .box .emp-img-box .img {
+  width: 100%;
+}
+.employee-list .employee-box .box .emp-info-box > h3 {
+  text-align: center;
+}
+.employee-list .employee-box .box .emp-info-box p {
+  text-align: center;
+}
+
+.banner {
+  height: 450px;
+  background-size: 100%;
+  position: relative;
+}
+.banner img {
+  position: absolute;
+  position: absolute;
+  bottom: 0px;
+  left: auto;
+  width: 100%;
+}
+.banner .text h1 {
+  font-family: "Jost", sans-serif;
+  font-size: -webkit-xxx-large;
+  padding: 122px 1px 12px 100px;
+  max-width: 430px;
+  z-index: 1;
+  position: relative;
+  font-weight: 700;
+  word-spacing: 10px;
+}
+.banner .text span {
+  color: #fff;
+}
+.banner .text img {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 218px;
+  bottom: 156px;
+}
+
+.inspiring-text {
+  padding-bottom: 30px;
+}
+.inspiring-text h5 {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  color: #4f4d4d;
+  font-size: large;
+}
+.inspiring-text h2 {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  max-width: 218px;
+  font-size: xx-large;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.inspiring-text p {
+  font-family: "Jost", sans-serif;
+  max-width: 690px;
+  text-align: center;
+  margin: 0 auto;
+  color: #3f3e3e;
+}
+
+.box .insp-sec .col-md-4 .insp-box .image img {
+  width: 100%;
+}
+.box .insp-sec .col-md-4 .insp-box .information {
+  background-color: hsl(35, 82%, 52%);
+  position: relative;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.box .insp-sec .col-md-4 .insp-box .information h6 {
+  font-family: "Jost", sans-serif;
+  padding: 10px;
+  color: #fff;
+}
+.box .insp-sec .col-md-4 .insp-box .information h5 {
+  font-family: "Jost", sans-serif;
+  padding: 0px 40px 10px 40px;
+  font-weight: 600;
+}
+.box .insp-sec .col-md-4 .insp-box .information h4 {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: large;
+  padding: 0px 0px 26px 10px;
+}
+.box .insp-sec .col-md-4 .insp-box .information img {
+  position: absolute;
+}
+.box .insp-sec .col-md-4:nth-of-type(2) .information {
+  background-color: #25966A;
+}
+.box .insp-sec .col-md-4:nth-of-type(3) .information {
+  background-color: #1488AC;
+}
+
+.headline h2 {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  padding: 40px;
+  font-size: xxx-large;
+}
+
+.spot .section {
+  margin-bottom: 20px;
+}
+.spot .section > div {
+  box-shadow: 2px 2px 1px 1px #cccccc;
+  padding: 0px;
+}
+.spot .section > div:nth-child(even) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.spot .section > div:nth-child(odd) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.spot .section > div .picture img {
+  width: 100%;
+}
+.spot .section > div .text h2 {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 600;
+}
+.spot .section > div .text h6 {
+  font-family: "Jost", sans-serif;
+  font-size: small;
+  text-align: center;
+  word-spacing: 1.5px;
+  padding: 20px 42px 70px 42px;
+}
+.spot .section > div .text .button {
+  text-align: center;
+  padding-top: 115px;
+}
+.spot .section > div .text .button a {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  background-color: #2fb6fa;
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.spot .section > div .text .button a .span {
+  height: 20px;
+  padding-left: 10px;
+}
+.spot .section > div .text .button2 {
+  text-align: center;
+  padding-top: 115px;
+}
+.spot .section > div .text .button2 a {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  background-color: #e49439;
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.spot .section > div .text .button2 a .span {
+  height: 20px;
+  padding-left: 10px;
+}
+
+.course .coursehead h2 {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: 700;
+  padding: 30px;
+}
+.course .coursehead h2 span {
+  position: relative;
+}
+.course .coursehead h2 span:nth-child(1)::after {
+  content: "";
+  background-color: #f2a0a0;
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  top: 24px;
+  position: absolute;
+  left: -2px;
+  z-index: -1;
+}
+.course .coursehead h2 span:nth-child(2)::after {
+  content: "";
+  background-color: #86eee4;
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  top: 24px;
+  position: absolute;
+  left: -2px;
+  z-index: -1;
+}
+.course .four .rect {
+  box-shadow: 0px 0px 2px 2px #cccccc;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+.course .four .rect .images img {
+  width: 100%;
+}
+.course .four .rect .texts h3 {
+  font-family: "Jost", sans-serif;
+  font-size: larger;
+  font-weight: 500;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  color: #3f3f3f;
+  padding: 20px 10px 2px 20px;
+}
+.course .four .rect .texts h5 {
+  font-family: "Jost", sans-serif;
+  font-size: large;
+  color: #fe4949;
+  padding: 0px 10px 10px 20px;
+}
+.course .four .rect .texts .line {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(172, 168, 168, 0.58);
+  margin: 12px 0px;
+}
+.course .four .rect .texts h4 {
+  font-family: "Jost", sans-serif;
+  font-size: larger;
+  padding: 0px 10px 10px 20px;
+}
+.course .four .rect .texts .btn {
+  text-align: center;
+}
+.course .four .rect .texts .btn a {
+  font-family: "Jost", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  background-image: linear-gradient(to right, rgb(38, 180, 114), rgb(50, 75, 187));
+  padding: 9px 40px;
+  border-radius: 10px;
+  display: inline-block;
+  border-radius: 50px;
+  margin-left: 56px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,361 @@
+
+.employee-list{
+    background-color: lightgray;
+
+    & > .title{
+        text-align: center;
+    }
+    .employee-box{
+        display: flex;
+
+        .box{
+            max-width: 25%;
+            margin: 10px;
+            background-color: #fff;
+            box-shadow: 3px 1px 6px 0px #000000;
+            .emp-img-box{
+                .img{
+                    width: 100%;
+                }
+            }
+            .emp-info-box{
+                & > h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+// web page2
+
+.banner{
+    height: 450px;
+    background-size: 100%;
+    position: relative;
+    
+   
+        img{
+            position: absolute;
+            position: absolute;
+            bottom: 0px;
+            left: auto;
+            width: 100%;
+
+        }
+        .text{
+            h1{
+                font-family: "Jost", sans-serif;
+                font-size: -webkit-xxx-large;
+                padding: 122px 1px 12px 100px;
+                max-width: 430px;
+                z-index: 1;
+                position: relative;
+                font-weight: 700;
+                word-spacing: 10px;
+            }
+                span{
+                    color:#fff;
+                }
+                img{
+                    width: 34px;
+                    height: 34px;
+                    position: absolute;
+                    left: 218px;
+                    bottom: 156px;
+                }
+            }
+}
+.inspiring-text{
+
+    padding-bottom: 30px;
+    h5{
+        font-family: "Jost", sans-serif;
+        text-align: center;
+        padding-top: 40px;
+        color: #4f4d4d;
+        font-size: large;
+    }
+    h2{
+        font-family: "Jost", sans-serif;
+        text-align: center;
+        max-width: 218px;
+        font-size: xx-large;
+        font-weight: 600;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    p{
+        font-family: "Jost", sans-serif;
+        max-width: 690px;
+        text-align: center;
+        margin: 0 auto;
+        color: #3f3e3e;
+    }
+}
+
+.box{
+    .insp-sec{
+        .col-md-4{
+            .insp-box{
+                .image{
+                    img{
+                        width: 100%;
+                    }
+    
+                }
+                .information{
+                    background-color: hsla(35, 82%, 52%, 1);
+                    position: relative;
+                    text-align: center;
+                    border-bottom-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    h6{
+                        font-family: "Jost", sans-serif;
+                        padding: 10px;
+                        color: #fff;
+                    }
+                    h5{
+                        font-family: "Jost", sans-serif;
+                        padding: 0px 40px 10px 40px;
+                        font-weight: 600;
+                    }
+                    h4{
+                        font-family: "Jost", sans-serif;
+                        color: #fff;
+                        font-size: large;
+                        padding: 0px 0px 26px 10px;
+                    }
+                    img{
+                        position: absolute;
+
+                    }
+                }
+    
+            }
+            
+            &:nth-of-type(2) .information{
+                background-color: #25966A;
+            }
+            &:nth-of-type(3) .information{
+                background-color: #1488AC;
+            }    
+        }
+    }
+}
+
+.headline{
+    h2{
+        font-family: "Jost", sans-serif;
+        text-align: center;
+        font-weight: 700;
+        padding: 40px;
+        font-size: xxx-large;
+    }
+}
+
+.spot{
+    .section{
+        margin-bottom: 20px;
+       
+       
+        & > div {
+            box-shadow: 2px 2px 1px 1px #cccccc;
+            padding: 0px;
+
+            &:nth-child(even){
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px; 
+            }
+
+            &:nth-child(odd){
+
+                border-top-left-radius: 10px;
+               border-bottom-left-radius: 10px; 
+
+
+               
+            }
+            // border-radius: 12px;
+
+            .picture{
+                img{
+                    width: 100%;
+                }
+
+            }
+            .text{
+                h2{
+                    font-family: "Jost", sans-serif;
+                    text-align: center;
+                    padding-top: 50px;
+                    font-weight: 600;
+                }
+                h6{
+                    font-family: "Jost", sans-serif;
+                    font-size: small;
+                    text-align: center;
+                    word-spacing: 1.5px;
+                    padding: 20px 42px 70px 42px;
+
+                }
+
+                .button{
+                    text-align: center;
+                    padding-top: 115px;
+                    a{
+                    
+                        font-family: "Jost", sans-serif;
+                        color: #fff;
+                        text-decoration: none;
+                        background-color:#2fb6fa; 
+                        padding: 10px 30px;
+                        border-radius: 10px;
+                        display: inline-block;
+                        border-radius: 10px;
+
+
+                        .span{
+                            height: 20px;
+                            padding-left: 10px;
+                        }
+                        
+                    }
+                    
+
+                }
+                .button2{
+                    text-align: center;
+                    padding-top: 115px;
+                    a{
+                    
+                        font-family: "Jost", sans-serif;
+                        color: #fff;
+                        text-decoration: none;
+                        background-color:#e49439; 
+                        padding: 10px 30px;
+                        border-radius: 10px;
+                        display: inline-block;
+                        border-radius: 10px;
+
+
+                        .span{
+                            height: 20px;
+                            padding-left: 10px;
+                        }
+                        
+                    }
+
+                }
+            }
+        }
+      
+            
+        
+    }
+}
+
+.course{
+    .coursehead{
+        h2{
+            font-family: "Jost", sans-serif;
+            text-align: center;
+            font-size: xxx-large;
+            font-weight: 700;
+            padding: 30px;
+            span{
+               position: relative;
+               &:nth-child(1){
+                    &::after{
+                        content: "";
+                        background-color: #f2a0a0;
+                        width: 33px;
+                        height: 33px;
+                        border-radius: 100%;
+                        top: 24px;
+                        position: absolute;
+                        left: -2px;
+                        z-index: -1;
+                    }
+                }
+                &:nth-child(2){
+                    &::after{
+                        content:"";
+                        background-color: #86eee4;
+                        width: 33px;
+                        height: 33px;
+                        border-radius: 100%;
+                        top: 24px;
+                        position: absolute;
+                        left: -2px;
+                        z-index: -1; 
+                    }
+                }
+    
+            }
+        }
+    }
+
+    .four{
+        .rect{
+            box-shadow: 0px 0px 2px 2px #cccccc;
+            border-top-left-radius: 22px;
+            border-top-right-radius: 22px;
+            .images{
+                img{
+                    width: 100%;
+                }
+            }
+            .texts{
+                h3{
+                    font-family: "Jost", sans-serif;
+                    font-size: larger;
+                    font-weight: 500;
+                    word-spacing: 3px;
+                    letter-spacing: 1px;
+                    color: #3f3f3f;
+                    padding: 20px 10px 2px 20px;
+                }
+                h5{
+                    font-family: "Jost", sans-serif;
+                    font-size: large;
+                    color: #fe4949;
+                    padding: 0px 10px 10px 20px;
+                }
+                .line{
+                    height: 1px;
+                    width: 100%;
+                    background-color: rgb(172 168 168 / 58%);
+                    margin: 12px 0px;
+                }
+                h4{
+                    font-family: "Jost", sans-serif;
+                    font-size: larger;
+                    padding: 0px 10px 10px 20px;
+                }
+                .btn{
+                    text-align: center;
+                    a{
+
+                        font-family: "Jost", sans-serif;
+                        color: #ffffff;
+                        text-decoration: none;
+                        background-image: linear-gradient(to right, rgb(38, 180, 114) , rgb(50, 75, 187));
+                        padding: 9px 40px;
+                        border-radius: 10px;
+                        display: inline-block;
+                        border-radius: 50px;
+                        margin-left: 56px;
+                    
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}

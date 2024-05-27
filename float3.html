@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>Float</title>
+        <style>
+            .banner{
+              background-image: url(images/road-1072823_1280.jpg);
+              width: 100%;
+              height: 600px;   
+            }
+            .banner h1{
+                text-align: center;
+                color: #49e2ef;
+                font-size: 50px;
+                text-shadow: 5px 3px 4px #030505;
+            }
+            .flower{
+               
+                text-align: center;
+                font-family: "Oswald", Helvetica, sans-serif;
+                font-size: 15px;
+                transform: skewY(359deg);
+                letter-spacing: 4px;
+                word-spacing: -8px 
+            }        
+            .main-box::after{
+                content: '';
+                clear:both;
+
+            }
+            .main-box .box{
+                width: 20%;
+                float: left;
+            }
+            .main-box .box img{
+                width: 100%;
+                height: 160px;
+                border: 4px solid black;
+                position: relative;
+            }
+            .main-box .box .inner-box{
+                padding: 4px;
+                
+
+            }
+            
+
+
+            .section-title h1{
+                text-align: center;
+                position: relative;
+            }
+            .section-title h1::before{
+                content: '';
+                border-bottom: 1px solid gray;
+                width: 70px;
+                height: 4px;
+                display: block;
+                position: absolute;
+                left: 25%;
+                border-top: 1px solid gray;
+                top: 40%;
+            }
+
+            .section-title h1::after{
+                content: '';
+                border-bottom: 1px solid gray;
+                width: 70px;
+                height: 4px;
+                display: block;
+                position: absolute;
+                right: 25%;
+                border-top: 1px solid gray;
+                top: 40%;
+            }
+           
+            .about-us-sec::after{
+                clear: both;
+                content: '';
+                display: table;
+            }
+            .about-us-sec > div:nth-of-type(2){
+                float: left;
+                width: 50%;
+            }
+            .about-us-sec > div:nth-of-type(3){
+                float: left;
+                width: 50%;
+            }
+            .about-us-sec .img-box img{
+                width: 100%;
+            }
+
+
+
+            .about-us-sec{
+                padding: 0px 100px;
+            }
+            .about-us-sec .about-us-title h2{
+                text-align: center;
+                font-size: 35px;
+            }
+
+
+            .about-us-sec .info-box .info-wrapper{
+                text-align: center;
+                padding: 20px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="banner">
+            <h1>Nature Image</h1>
+        </div>
+        <div class="flower">
+            <h1>Different Kinds Of Flower</h1>
+        </div>
+
+
+        <div class="main-box">
+            <div class="box">
+                <img src="images/lili.webp"/>
+
+            </div>
+
+        </div>
+
+       
+
+
+
+        <div class="about-us-sec">
+            <div class="about-us-title">
+                <h2>About Us</h2>
+            </div>
+            <div class="img-box">
+                <img src="images/about-us-img.jpg"/>
+            </div>
+            <div class="info-box">
+                <div class="info-wrapper">
+                    <h3>Lorem ipsum dolor sit</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro neque doloremque facilis doloribus atque temporibus, modi nobis aperiam laboriosam adipisci iure beatae eius laudantium quo ea, tempora quaerat est similique.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="about-us-sec">
+            <div class="about-us-title">
+                <h2>About Us</h2>
+            </div>
+            
+            <div class="info-box">
+                <div class="info-wrapper">
+                    <h3>Lorem ipsum dolor sit</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro neque doloremque facilis doloribus atque temporibus, modi nobis aperiam laboriosam adipisci iure beatae eius laudantium quo ea, tempora quaerat est similique.
+                    </p>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="images/about-us-img.jpg"/>
+            </div>
+        </div>
+
+
+        
+    </body>
+</html>

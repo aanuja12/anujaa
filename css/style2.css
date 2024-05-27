@@ -1,0 +1,50 @@
+.employee-list {
+  background-color: #fdf1f3;
+}
+.employee-list h1 {
+  text-align: center;
+  font-size: xxx-large;
+  font-style: italic;
+  color: rgba(89, 207, 59, 0.8901960784);
+}
+.employee-list h1 h3 {
+  font-style: italic;
+  color: #853d3d;
+}
+.employee-list .employee-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.employee-list .employee-box .box {
+  max-width: 25%;
+  flex: 0 0 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .employee-list .employee-box .box {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: 500px) {
+  .employee-list .employee-box .box {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+.employee-list .employee-box .box .img-box img {
+  width: 100%;
+  height: 300px;
+}
+.employee-list .employee-box .box .info-box h2 {
+  text-align: center;
+  color: #9267d9;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.employee-list .employee-box .box .info-box p {
+  text-align: center;
+  font-style: italic;
+  color: #399090;
+}/*# sourceMappingURL=style2.css.map */

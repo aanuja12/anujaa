@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>menu</title>
+        <style>
+            header{
+                display: flex;
+                flex-wrap: wrap;
+                align-content: stretch;
+                justify-content: space-between;
+                background-color: #b7ebd5bd;
+                padding: 0px 20px
+            }
+            header .logo-sec img{
+                width: 100px;
+                height: auto;
+            }
+            .menu{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-content: space-around;
+            }
+            header .menu ul{
+                margin: 10px;
+                list-style-type: disclosure-closed;
+            }
+            header .menu ul li{
+                display: inline-block;
+                margin: 10px;
+                border-radius: 4px;
+                padding: 5px;
+                font-size: x-large;
+                font-style: italic;
+                font-variant: all-petite-caps;
+            }
+            header .menu ul li a{
+                text-decoration-style: double;
+                color: blueviolet; 
+            }
+            header .menu ul li:hover{
+                background-color: cadetblue;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo-sec">
+                <img src="images/logo-img.webp">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">list</a></li>
+                    <li><a href="#">veg</a></li>
+                    <li><a href="#">non-veg</a></li>
+                    <li><a href="#">online-orders</a></li>
+                </ul>
+            </div>
+        </header>
+    </body>
+</html>

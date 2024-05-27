@@ -1,0 +1,55 @@
+.banner-sec {
+  height: 500px;
+  background-size: 100% 100%;
+}
+.banner-sec .container {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.banner-sec .container h1 {
+  max-width: 520px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.inspiring-sec .edu-title {
+  margin: 70px 0px;
+}
+.inspiring-sec .edu-title h3 {
+  text-align: center;
+}
+.inspiring-sec .edu-title h1 {
+  text-align: center;
+  font-weight: 700;
+}
+.inspiring-sec .edu-title p {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.inspiring-sec .edu-sec .col-md-4 .edu-box .img-sec img {
+  width: 100%;
+}
+.inspiring-sec .edu-sec .col-md-4 .edu-box .info-sec {
+  padding: 10px 30px;
+  text-align: center;
+  background-color: orange;
+}
+.inspiring-sec .edu-sec .col-md-4 .edu-box .info-sec h6 {
+  color: #fff;
+}
+.inspiring-sec .edu-sec .col-md-4 .edu-box .info-sec h5 {
+  font-weight: 600;
+}
+.inspiring-sec .edu-sec .col-md-4 .edu-box .info-sec a {
+  color: #fff;
+  text-decoration: none;
+}
+.inspiring-sec .edu-sec .col-md-4:nth-of-type(2) .info-sec {
+  background-color: #25966A;
+}
+.inspiring-sec .edu-sec .col-md-4:nth-of-type(3) .info-sec {
+  background-color: #1488AC;
+}/*# sourceMappingURL=tf_style.css.map */

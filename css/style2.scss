@@ -1,0 +1,55 @@
+.employee-list{
+    background-color: #fdf1f3;
+        h1{
+        text-align: center;
+        font-size: xxx-large;
+        font-style: italic;
+        color: #59cf3be3;
+        h3{
+            font-style: italic;
+            color: #853d3d;
+        }
+
+    }
+
+    .employee-box{
+        display: flex;
+        flex-wrap: wrap;
+
+        .box{
+            max-width: 25%;
+            flex:0 0 25%;
+            padding: 10px;
+            box-sizing: border-box;
+            @media (max-width:768px) {
+                max-width: 50%;
+                flex:0 0 50%;
+            }
+            @media (max-width:500px) {
+                max-width: 100%;
+                flex:0 0 100%;
+            }
+            
+            .img-box{
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+                
+            }
+            .info-box{
+                h2{
+                    text-align: center;
+                    color: #9267d9;
+                    font-style: italic;
+                    letter-spacing: 1px;
+                }
+                p{
+                    text-align: center;
+                    font-style: italic;
+                    color: #399090;
+                }
+            }
+        }
+    }
+}

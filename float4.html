@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>float</title>
+        <style>
+            .main-box::after{
+                content: '';
+                clear: both;
+                display: table;
+            }
+            .main-box .box{
+                width: 20%;
+                float: left;
+                height: 50%;
+            }
+            .main-box .box img{
+                width: 100%;
+                height: 70%;
+            }
+            .main-box .box .inner-box{
+                position: relative;
+                padding: 5px;
+                overflow: hidden;
+            }
+            .main-box .box .inner-box .overlay-sec{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #000000bf;
+                cursor: progress;  
+                top: -250px; 
+            }
+            .main-box .box .inner-box:hover .overlay-sec{
+                top: 0;
+            }
+            .main-box .box .inner-box .overlay-sec h6{
+                top: 0;
+                color: #fff;
+                text-align: center;
+                left: 0px;
+            }
+            .banner{
+                background-image: url(images/road-1072823_1280.jpg);
+                width: 100%;
+                height: 746px;
+            }
+            .banner h1{
+                text-align: center;
+                FONT-SIZE: xxx-large;
+                padding: 130px
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="main-box">
+            <div class="box">
+                <div class="inner-box">
+                    <div class="overlay-sec">
+                        <h6>LILI</h6>
+                    </div>   
+                    <img src="images/lili.webp"/>
+                </div>  
+            </div>
+            <div class="box">
+                <div class="inner-box">
+                    <div class="overlay-sec">
+                        <h6>WHITE FLOWER</h6>
+                    </div>
+                    <img src="images/lotus.avif"/>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner-box">
+                    <div class="overlay-sec">
+                        <h6>ROSE</h6>
+                    </div>
+                    <img src="images/rose.avif"/>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner-box">
+                    <div class="overlay-sec"> 
+                        <h6>SUNFLOWER</h6>   
+                    </div>
+                    <img src="images/sunflower.jpg"/>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner-box">
+                    <div class="overlay-sec">  
+                        <h6>YELLOW FLOWER</h6>
+                    </div>
+                    <img src="images/yellow-flr.avif"/>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="banner">
+            <h1>Nature Image</h1>
+        </div>
+    </body>
+</html>

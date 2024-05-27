@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            .service-sec .service-box{
+                display: flex;
+                flex-wrap: wrap;
+            }
+           
+            .service-sec .service-box > div{
+                flex:0 0 50%;
+                max-width: 50%;
+                padding: 0px 10px;
+                box-sizing: border-box;
+            }
+            .service-sec .service-box .service-img-sec > img{
+                width: 100%;
+                height: auto;
+            }
+
+            @media (max-width:500px) {
+                .service-sec .service-box > div{
+                    flex:0 0 100%;
+                    max-width: 100%;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+
+                                                                                                                        
+
+        <div class="service-sec">
+            <h2 class="title">Our Services</h2>
+            <div class="service-box">
+                <div class="service-img-sec">
+                    <img src="images/about-us-img.jpg"/>
+                </div>
+                <div class="service-info-sec">
+                    <h4>Services</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus ex consequatur molestiae laborum labore dicta sed neque suscipit qui quia, corrupti deleniti tempora possimus corporis optio accusamus pariatur veritatis reprehenderit.</p>
+                </div>
+            </div>
+           
+        </div>
+    </body>
+</html>
